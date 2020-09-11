@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="600.0" style="-fx-background-color: #8d95ac;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="seatX.Seat">
+   <children>
+      <RadioButton fx:id="A1" layoutX="148.0" layoutY="208.0" mnemonicParsing="false" text="A1">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="A2" layoutX="198.0" layoutY="208.0" mnemonicParsing="false" text="A2">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="A3" layoutX="398.0" layoutY="208.0" mnemonicParsing="false" text="A3">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="A4" layoutX="448.0" layoutY="208.0" mnemonicParsing="false" text="A4">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="B1" layoutX="148.0" layoutY="248.0" mnemonicParsing="false" text="B1">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="B2" layoutX="198.0" layoutY="248.0" mnemonicParsing="false" text="B2">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="B3" layoutX="398.0" layoutY="248.0" mnemonicParsing="false" text="B3">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="B4" layoutX="448.0" layoutY="248.0" mnemonicParsing="false" text="B4">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="C1" layoutX="148.0" layoutY="288.0" mnemonicParsing="false" text="C1">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="C2" layoutX="198.0" layoutY="288.0" mnemonicParsing="false" text="C2">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="C3" layoutX="398.0" layoutY="288.0" mnemonicParsing="false" text="C3">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="C4" layoutX="448.0" layoutY="288.0" mnemonicParsing="false" text="C4">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="D1" layoutX="148.0" layoutY="328.0" mnemonicParsing="false" text="D1">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="D2" layoutX="198.0" layoutY="328.0" mnemonicParsing="false" text="D2">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="D3" layoutX="398.0" layoutY="328.0" mnemonicParsing="false" text="D3">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="D4" layoutX="448.0" layoutY="328.0" mnemonicParsing="false" text="D4">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="E1" layoutX="148.0" layoutY="368.0" mnemonicParsing="false" text="E1">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="E2" layoutX="198.0" layoutY="368.0" mnemonicParsing="false" text="E2">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="E3" layoutX="398.0" layoutY="368.0" mnemonicParsing="false" text="E3">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="E4" layoutX="448.0" layoutY="368.0" mnemonicParsing="false" text="E4">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="F1" layoutX="148.0" layoutY="408.0" mnemonicParsing="false" text="F1">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="F2" layoutX="198.0" layoutY="408.0" mnemonicParsing="false" text="F2">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="F3" layoutX="398.0" layoutY="408.0" mnemonicParsing="false" text="F3">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="F4" layoutX="448.0" layoutY="408.0" mnemonicParsing="false" text="F4">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="G1" layoutX="148.0" layoutY="448.0" mnemonicParsing="false" text="G1">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="G2" layoutX="198.0" layoutY="448.0" mnemonicParsing="false" text="G2">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="G3" layoutX="398.0" layoutY="448.0" mnemonicParsing="false" text="G3">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="G4" layoutX="448.0" layoutY="448.0" mnemonicParsing="false" text="G4">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="H1" layoutX="148.0" layoutY="488.0" mnemonicParsing="false" text="H1">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="H2" layoutX="198.0" layoutY="488.0" mnemonicParsing="false" text="H2">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="H3" layoutX="398.0" layoutY="488.0" mnemonicParsing="false" text="H3">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="H4" layoutX="448.0" layoutY="488.0" mnemonicParsing="false" text="H4">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="I1" layoutX="148.0" layoutY="528.0" mnemonicParsing="false" text="I1">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="I2" layoutX="198.0" layoutY="528.0" mnemonicParsing="false" text="I2">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="I5" layoutX="398.0" layoutY="528.0" mnemonicParsing="false" text="I5">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="I6" layoutX="448.0" layoutY="528.0" mnemonicParsing="false" text="I6">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="I3" layoutX="268.0" layoutY="528.0" mnemonicParsing="false" text="I3">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="I4" layoutX="338.0" layoutY="528.0" mnemonicParsing="false" text="I4">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <Button layoutX="233.0" layoutY="571.0" mnemonicParsing="false" onAction="#select" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: #92a8b0;" text="Select">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button layoutX="545.0" layoutY="761.0" mnemonicParsing="false" onAction="#back" style="-fx-background-color: #92a8b0;" text="back" />
+      <Label fx:id="lb1" layoutX="255.0" layoutY="656.0" prefHeight="33.0" prefWidth="110.0" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Line endX="550.0" layoutY="634.0" startX="50.0" />
+      <ImageView blendMode="DARKEN" fitHeight="89.0" fitWidth="84.0" focusTraversable="true" layoutX="406.0" layoutY="115.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@driver.jpg" />
+         </image>
+      </ImageView>
+   </children>
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+   <opaqueInsets>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </opaqueInsets>
+</AnchorPane>

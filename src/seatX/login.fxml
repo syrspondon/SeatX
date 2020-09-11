@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane focusTraversable="true" maxHeight="-800.0" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="600.0" style="-fx-background-color: #8d95ac;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="seatX.Login">
+   <children>
+      <TextField fx:id="userID" layoutX="120.0" layoutY="180.0" prefHeight="45.0" prefWidth="250.0" promptText="student id" style="-fx-background-color: #c9d4d8;">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <Button alignment="CENTER" layoutX="120.0" layoutY="320.0" mnemonicParsing="false" onAction="#login" prefHeight="45.0" prefWidth="160.0" style="-fx-background-color: #92a8b0;" text="log in" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Label fx:id="label" layoutX="120.0" layoutY="382.0" prefHeight="36.0" prefWidth="148.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="password" layoutX="120.0" layoutY="250.0" prefHeight="45.0" prefWidth="250.0" promptText="password" style="-fx-background-color: #c9d4d8;">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </PasswordField>
+      <Button layoutX="452.0" layoutY="750.0" mnemonicParsing="false" onAction="#admin" prefHeight="36.0" prefWidth="134.0" style="-fx-background-color: #708d97;" text="Administrator" textAlignment="CENTER" />
+   </children>
+</AnchorPane>
