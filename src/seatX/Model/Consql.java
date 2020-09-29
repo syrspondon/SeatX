@@ -1,4 +1,4 @@
-package seatX.Controller;
+package seatX.Model;
 
 import java.sql.*;
 

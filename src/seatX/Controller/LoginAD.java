@@ -9,6 +9,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.stage.Stage;
+import seatX.Model.Consql;
 
 public class LoginAD {
     public TextField user;

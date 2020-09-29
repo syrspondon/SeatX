@@ -10,6 +10,9 @@ import javafx.scene.control.Label;
 import javafx.scene.control.RadioButton;
 import javafx.scene.control.ToggleGroup;
 import javafx.stage.Stage;
+import seatX.Model.AlertBox;
+import seatX.Model.Consql;
+
 import java.io.IOException;
 import java.net.URL;
 import java.sql.Connection;

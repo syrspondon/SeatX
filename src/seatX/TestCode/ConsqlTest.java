@@ -2,7 +2,7 @@ package seatX.TestCode;
 
 import org.junit.Before;
 import org.junit.jupiter.api.Test;
-import seatX.Controller.Consql;
+import seatX.Model.Consql;
 
 class ConsqlTest {
 

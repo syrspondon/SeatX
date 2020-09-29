@@ -1,10 +1,11 @@
-package seatX.Controller;
+package seatX.Model;
 
 import javafx.stage.*;
 import javafx.scene.*;
 import javafx.scene.layout.*;
 import javafx.scene.control.*;
 import javafx.geometry.*;
+import seatX.Controller.Seat;
 
 public class AlertBox {
     public static void display(String a) {
