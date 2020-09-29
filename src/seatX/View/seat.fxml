@@ -11,7 +11,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="800.0" prefWidth="600.0" style="-fx-background-color: #8d95ac;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="seatX.Seat">
+<AnchorPane prefHeight="800.0" prefWidth="600.0" style="-fx-background-color: #8d95ac;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="seatX.Controller.Seat">
    <children>
       <RadioButton fx:id="A1" layoutX="148.0" layoutY="208.0" mnemonicParsing="false" text="A1">
          <font>
@@ -216,7 +216,7 @@
       <Line endX="550.0" layoutY="634.0" startX="50.0" />
       <ImageView blendMode="DARKEN" fitHeight="89.0" fitWidth="84.0" focusTraversable="true" layoutX="406.0" layoutY="115.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@driver.jpg" />
+            <Image url="@../image/driver.jpg" />
          </image>
       </ImageView>
    </children>

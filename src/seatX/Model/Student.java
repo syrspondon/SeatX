@@ -1,4 +1,4 @@
-package seatX;
+package seatX.Model;
 
 import javafx.beans.property.SimpleStringProperty;
 

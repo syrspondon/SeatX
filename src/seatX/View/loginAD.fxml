@@ -8,7 +8,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="800.0" prefWidth="600.0" style="-fx-background-color: #b2b2be;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="seatX.LoginAD">
+<AnchorPane prefHeight="800.0" prefWidth="600.0" style="-fx-background-color: #b2b2be;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="seatX.Controller.LoginAD">
    <children>
       <TextField fx:id="user" layoutX="120.0" layoutY="180.0" prefHeight="45.0" prefWidth="250.0" promptText="Admin" style="-fx-background-color: #dbdbe1;">
          <font>

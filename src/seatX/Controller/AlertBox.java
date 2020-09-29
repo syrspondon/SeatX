@@ -1,4 +1,4 @@
-package seatX;
+package seatX.Controller;
 
 import javafx.stage.*;
 import javafx.scene.*;

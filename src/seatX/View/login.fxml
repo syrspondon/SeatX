@@ -7,7 +7,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane focusTraversable="true" maxHeight="-800.0" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="600.0" style="-fx-background-color: #8d95ac;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="seatX.Login">
+<AnchorPane focusTraversable="true" maxHeight="-800.0" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="600.0" style="-fx-background-color: #8d95ac;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="seatX.Controller.Login">
    <children>
       <TextField fx:id="userID" layoutX="120.0" layoutY="180.0" prefHeight="45.0" prefWidth="250.0" promptText="student id" style="-fx-background-color: #c9d4d8;">
          <font>

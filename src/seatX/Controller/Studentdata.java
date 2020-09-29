@@ -1,4 +1,4 @@
-package seatX;
+package seatX.Controller;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -13,6 +13,7 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.stage.Stage;
+import seatX.Model.Student;
 
 import java.io.IOException;
 import java.net.URL;
@@ -81,7 +82,7 @@ public class Studentdata implements Initializable {
     }
 
     public void back(ActionEvent actionEvent) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("loginAD.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("View/loginAD.fxml"));
         Scene scene = new Scene(root);
         Stage window = (Stage)((Node)actionEvent.getSource()).getScene().getWindow();
         window.setScene(scene);

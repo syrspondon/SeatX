@@ -1,4 +1,4 @@
-package seatX;
+package seatX.Controller;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -17,7 +17,7 @@ public class Main extends Application {
         window = primaryStage;
         window.setTitle("seatX");
 
-        Parent root = FXMLLoader.load(getClass().getResource("login.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("View/login.fxml"));
 
         Scene scene = new Scene(root, 600, 800);
         window.setResizable(false);

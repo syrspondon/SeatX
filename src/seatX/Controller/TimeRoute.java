@@ -1,4 +1,4 @@
-package seatX;
+package seatX.Controller;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
@@ -36,7 +36,7 @@ public class TimeRoute implements Initializable {
     }
 
     public void logout(ActionEvent actionEvent) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("login.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("View/login.fxml"));
         Scene scene = new Scene(root);
         Stage window = (Stage)((Node)actionEvent.getSource()).getScene().getWindow();
         window.setScene(scene);
@@ -58,7 +58,7 @@ public class TimeRoute implements Initializable {
             Login.RoutL = route.getValue();
             Login.TimeL = time.getValue();
             System.out.println(Login.RoutL+"  "+Login.TimeL);
-            Parent root = FXMLLoader.load(getClass().getResource("seat.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("View/seat.fxml"));
             Scene scene = new Scene(root);
             Stage window = (Stage)((Node)actionEvent.getSource()).getScene().getWindow();
             window.setScene(scene);
@@ -72,59 +72,5 @@ public class TimeRoute implements Initializable {
 
     public void timeB(ActionEvent actionEvent) {
         lb2.setText("");
-    }
-
-    public static class Studet {
-
-        private String id;
-        private String route;
-        private String time;
-        private String seat;
-
-        public Studet(){
-            this.id="";
-            this.route="";
-            this.time="";
-            this.seat="";
-        }
-
-        public Studet(String id, String route, String time, String seat){
-            this.id=id;
-            this.route=route;
-            this.time=time;
-            this.seat=seat;
-        }
-
-        public String getId() {
-            return id;
-        }
-
-        public void setId(String id) {
-            this.id = id;
-        }
-
-        public String getRoute() {
-            return route;
-        }
-
-        public void setRoute(String route) {
-            this.route = route;
-        }
-
-        public String getTime() {
-            return time;
-        }
-
-        public void setTime(String time) {
-            this.time = time;
-        }
-
-        public String getSeat() {
-            return seat;
-        }
-
-        public void setSeat(String seat) {
-            this.seat = seat;
-        }
     }
 }

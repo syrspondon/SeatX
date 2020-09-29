@@ -1,4 +1,4 @@
-package seatX;
+package seatX.Controller;
 
 import javafx.event.ActionEvent;
 import java.io.IOException;
@@ -32,7 +32,7 @@ public class LoginAD {
                 System.out.println(user.getText()+" logged in ");
                 logged = true;
                 lb.setText("");
-                Parent root = FXMLLoader.load(getClass().getResource("studentdata.fxml"));
+                Parent root = FXMLLoader.load(getClass().getResource("View/studentdata.fxml"));
                 Scene scene = new Scene(root);
                 Stage window = (Stage)((Node)actionEvent.getSource()).getScene().getWindow();
                 window.setScene(scene);
@@ -44,12 +44,11 @@ public class LoginAD {
         {
             lb.setText("Wrong ID or Password");
             password.setText("");
-
         }
     }
 
     public void back(ActionEvent actionEvent) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("login.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("View/login.fxml"));
         Scene scene = new Scene(root);
         Stage window = (Stage)((Node)actionEvent.getSource()).getScene().getWindow();
         window.setScene(scene);

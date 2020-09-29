@@ -1,4 +1,4 @@
-package seatX;
+package seatX.Controller;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
@@ -108,7 +108,7 @@ public class Seat implements Initializable {
     }
 
     public void back(ActionEvent actionEvent) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("time&route.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("View/time&route.fxml"));
         Scene scene = new Scene(root);
         Stage window = (Stage)((Node)actionEvent.getSource()).getScene().getWindow();
         window.setScene(scene);
@@ -134,7 +134,7 @@ public class Seat implements Initializable {
                 statement.executeUpdate(sql);
 
                 Login.seatStatus = 1;
-                Parent root = FXMLLoader.load(getClass().getResource("time&route.fxml"));
+                Parent root = FXMLLoader.load(getClass().getResource("View/time&route.fxml"));
                 Scene scene = new Scene(root);
                 Stage window = (Stage)((Node)actionEvent.getSource()).getScene().getWindow();
                 window.setScene(scene);

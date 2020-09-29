@@ -6,7 +6,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="800.0" prefWidth="600.0" style="-fx-background-color: #b2b2be;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="seatX.Studentdata">
+<AnchorPane prefHeight="800.0" prefWidth="600.0" style="-fx-background-color: #b2b2be;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="seatX.Controller.Studentdata">
    <children>
       <TableView fx:id="table" editable="true" layoutX="5.0" layoutY="5.0" prefHeight="740.0" prefWidth="590.0" style="-fx-background-color: #b2beb5;">
         <columns>
